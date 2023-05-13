@@ -46,6 +46,11 @@ h1 {
 }
 
 .burger {
-  height: 10rem;
-  width: 10rem;
+  padding: 2.5rem;
+  background-color: transparent;
+  border: 0ch;
+}
+.burger .line {
+  height: 1.6666666667rem;
+  width: 5rem;
 }/*# sourceMappingURL=style.css.map */

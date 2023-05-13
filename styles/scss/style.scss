@@ -11,19 +11,27 @@ body{
     src: url(../../BMarmy.TTF);
 }
 nav{
+    top: 1.5rem;
+    width: calc(100vw - 4rem);
+    z-index: 1000;
     a{
         color: white;
         text-decoration: none;
     }
 }
 .navEx{
-    background-color: black;
+    
+    height: 110vh;
+    font-size: 3rem;
+    background-color: #121212;
     button{
         color: white;
-        background-color: white;
+        background-color: #121212;
+        border: 0;
     }
     a{
         color: white;
+        text-decoration: none;
     }
     
 }
@@ -31,6 +39,7 @@ h1{
     font-size: 4rem;
 }
 .sun{
+    z-index: 1;
     position: relative;
     height: 40rem;
     width: 40rem;
@@ -48,14 +57,56 @@ h1{
 .burger{
     background-color: transparent;
     border: 0ch;
-    gap: 1rem;
+    gap: calc(4rem / 5);
     .line{
         background-color: white;
         color: white;
-    height: calc(1rem);
-    width: 5rem
+        height: calc(4rem / 5);
+        width: 4rem
     }
 }
 .about{
     font-size: 2rem;
+    background-color: rgba($color: #121212, $alpha: .8);
+}
+#contact{
+    background-color: rgba($color: #121212, $alpha: .8);
+    font-size: 1.5rem;
+    a{
+        color: white;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    h2{
+        margin: 0%;
+        font-size: 2.5rem;
+    }
+    p  {
+        margin: 0%;
+    }
+}
+.carousel-item{
+    h2{
+        font-size: 3rem;
+        background-color: rgba($color: #121212, $alpha: .8);
+    }
+    p{
+        font-size: 1.5rem;
+        background-color: rgba($color: #121212, $alpha: .8);
+    }
+}
+#carousel{
+    button{
+        font-size: 6rem;
+    }
+    .pic{
+        top: 35%;
+        object-fit: cover;
+        pointer-events: none;
+        width: 40rem;
+        left: 30%;
+    }
+    .pic2{
+        left: 70%;
+    }
 }

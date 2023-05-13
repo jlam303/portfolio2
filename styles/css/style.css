@@ -23,7 +23,7 @@ nav a {
 
 .navEx {
   height: 110vh;
-  font-size: 3rem;
+  font-size: 4rem;
   background-color: #121212;
 }
 .navEx button {
@@ -211,6 +211,9 @@ h1 {
 @media (max-width: 800px) {
   :root {
     font-size: 80%;
+  }
+  .navEx {
+    font-size: 6rem;
   }
   .carousel-item img {
     width: 45%;

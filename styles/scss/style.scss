@@ -104,6 +104,9 @@ h1 {
 }
 
 .carousel-item {
+    img{
+        width: 35%;
+    }
     h2 {
         font-size: 3rem;
         background-color: rgba($color: #121212, $alpha: .8);
@@ -134,9 +137,10 @@ h1 {
 }
 
 .big {
+    position: relative;
+    z-index: 2;
     height: 40rem;
     width: 40rem;
-    z-index: 3;
     object-fit: fill;
 }
 
@@ -146,11 +150,10 @@ h1 {
 }
 
 .ships {
+    z-index: 3;
     height: 50rem;
     width: 50rem;
-    z-index: 3;
 }
-
 
 .ships {
     :nth-child(1) {
@@ -159,7 +162,6 @@ h1 {
 
     :nth-child(2) {
         top: 5%;
-
     }
 
     :nth-child(3) {
@@ -171,17 +173,112 @@ h1 {
     height: 50rem;
     width: 50rem;
     :nth-child(1) {
+        top:  -25%;
+    }
+
+    :nth-child(2) {
+        top: -20%;
+    }
+
+    :nth-child(3) {
+        top: 0%;
+    }
+}
+.trails2{
+    :nth-child(1) {
             top: 0%;
-            background-image: url(../../images/trail1.png);
         }
     
         :nth-child(2) {
             top: 5%;
-            background-image: url(../../images/trail2.png);
         }
     
         :nth-child(3) {
             top: 25%;
-            background-image: url(../../images/trail3.png);
         }
+}
+.trails3 {
+    :nth-child(1) {
+        top: 25%;
+    }
+
+    :nth-child(2) {
+        top: 30%;
+    }
+
+    :nth-child(3) {
+        top: 50%;
+    }
+}
+.trails4 {
+    :nth-child(1) {
+        top: 50%;
+    }
+
+    :nth-child(2) {
+        top: 55%;
+    }
+
+    :nth-child(3) {
+        top: 75%;
+    }
+}
+.skillText{
+    font-size: 3rem;
+    z-index: 5;
+    bottom: -40%;
+    p{
+        padding: .2rem;
+        background-color: rgba($color: #121212, $alpha: .8);
+    }
+    
+}
+#resume{
+    z-index: 5;
+    top: 20%;
+    font-size: 4rem;
+    color: white;
+}
+@media (max-width: 800px) {
+    :root{
+        font-size: 80%;
+        
+    }
+        .carousel-item {
+            img {
+                width: 45%;
+            }
+        }
+}
+@media (max-width: 570px) {
+    :root {
+        font-size: 60%;
+    }
+        .carousel-item {
+            img {
+                width: 60%;
+            }
+        }
+                .skillText {
+                    bottom: 0%;
+                }
+
+}
+@media (max-width: 480px) {
+    :root {
+        font-size: 40%;
+    }
+        .carousel-item {
+            img {
+                width: 75%;
+            }
+        }
+                .skillText {
+                    bottom: 35%;
+                }
+}
+@media (max-width: 300px) {
+    :root {
+        font-size: 35%;
+    }
 }

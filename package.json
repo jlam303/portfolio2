@@ -1,0 +1,23 @@
+{
+  "name": "portfolio2",
+  "version": "1.0.0",
+  "description": "A portfolio created at West-MEC for Jonathan Lam",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlam303/portfolio2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jlam303/portfolio2/issues"
+  },
+  "homepage": "https://github.com/jlam303/portfolio2#readme",
+  "dependencies": {
+    "local": "^0.3.3",
+    "scss": "^0.2.4"
+  }
+}

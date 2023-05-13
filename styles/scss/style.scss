@@ -1,0 +1,48 @@
+body{
+    background-image: url(../.././images/stars.png);
+}
+* {
+    font-family: "future";
+    color: white;
+}
+
+.logo {
+    width: 10rem;
+    height: 10rem;
+}
+
+@font-face {
+    font-family: "future";
+    src: url(../../BMarmy.TTF);
+}
+.navEx{
+    background-color: black;
+    button{
+        color: white;
+        background-color: white;
+    }
+    a{
+        color: white;
+    }
+    
+}
+h1{
+    font-size: 4rem;
+}
+.sun{
+    height: 40rem;
+    width: 40rem;
+    background-size: 100%;
+    background-image: url(../../images/Planet1.png);
+    #me{
+        width: 20rem;
+        height: 20rem;
+        border-radius: 50%;
+        object-fit: cover;
+        opacity: .7;
+    }
+}
+.burger{
+    height: 10rem;
+    width: 10rem;
+}

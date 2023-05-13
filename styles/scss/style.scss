@@ -30,23 +30,26 @@ h1{
     font-size: 4rem;
 }
 .sun{
+    position: relative;
     height: 40rem;
     width: 40rem;
     background-size: 100%;
     background-image: url(../../images/Planet1.png);
     #me{
-        width: 20rem;
-        height: 20rem;
+        width: 30rem;
+        height: 30rem;
         border-radius: 50%;
         object-fit: cover;
-        opacity: .7;
+        opacity: 1;
     }
+    margin-bottom: 10rem;
 }
 .burger{
     padding: 2.5rem;
     background-color: transparent;
     border: 0ch;
     .line{
+        color: white;
     height: calc(5rem / 3);
     width: 5rem
     }

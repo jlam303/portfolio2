@@ -7,15 +7,15 @@ body {
   color: white;
 }
 
-.logo {
-  width: 10rem;
-  height: 10rem;
-}
-
 @font-face {
   font-family: "future";
   src: url(../../BMarmy.TTF);
 }
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
 .navEx {
   background-color: black;
 }
@@ -48,12 +48,17 @@ h1 {
 }
 
 .burger {
-  padding: 2.5rem;
   background-color: transparent;
   border: 0ch;
+  gap: 1rem;
 }
 .burger .line {
+  background-color: white;
   color: white;
-  height: 1.6666666667rem;
+  height: 1rem;
   width: 5rem;
+}
+
+.about {
+  font-size: 2rem;
 }/*# sourceMappingURL=style.css.map */

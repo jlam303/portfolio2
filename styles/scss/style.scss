@@ -1,6 +1,7 @@
-body{
+body {
     background-image: url(../.././images/stars.png);
 }
+
 * {
     font-family: "future";
     color: white;
@@ -10,103 +11,177 @@ body{
     font-family: "future";
     src: url(../../BMarmy.TTF);
 }
-nav{
+
+nav {
     top: 1.5rem;
     width: calc(100vw - 4rem);
     z-index: 1000;
-    a{
+
+    a {
         color: white;
         text-decoration: none;
     }
 }
-.navEx{
-    
+
+.navEx {
+
     height: 110vh;
     font-size: 3rem;
     background-color: #121212;
-    button{
+
+    button {
         color: white;
         background-color: #121212;
         border: 0;
     }
-    a{
+
+    a {
         color: white;
         text-decoration: none;
     }
-    
+
 }
-h1{
+
+h1 {
     font-size: 4rem;
 }
-.sun{
+
+.sun {
     z-index: 1;
     position: relative;
     height: 40rem;
     width: 40rem;
     background-size: 100%;
     background-image: url(../../images/Planet1.png);
-    #me{
+
+    #me {
         width: 30rem;
         height: 30rem;
         border-radius: 50%;
         object-fit: cover;
         opacity: 1;
     }
+
     margin-bottom: 10rem;
 }
-.burger{
+
+.burger {
     background-color: transparent;
     border: 0ch;
     gap: calc(4rem / 5);
-    .line{
+
+    .line {
         background-color: white;
         color: white;
         height: calc(4rem / 5);
         width: 4rem
     }
 }
-.about{
+
+.about {
     font-size: 2rem;
     background-color: rgba($color: #121212, $alpha: .8);
 }
-#contact{
+
+#contact {
     background-color: rgba($color: #121212, $alpha: .8);
     font-size: 1.5rem;
-    a{
+
+    a {
         color: white;
         padding-left: 1rem;
         padding-right: 1rem;
     }
-    h2{
+
+    h2 {
         margin: 0%;
         font-size: 2.5rem;
     }
-    p  {
+
+    p {
         margin: 0%;
     }
 }
-.carousel-item{
-    h2{
+
+.carousel-item {
+    h2 {
         font-size: 3rem;
         background-color: rgba($color: #121212, $alpha: .8);
     }
-    p{
+
+    p {
         font-size: 1.5rem;
         background-color: rgba($color: #121212, $alpha: .8);
     }
 }
-#carousel{
-    button{
+
+#carousel {
+    button {
         font-size: 6rem;
     }
-    .pic{
+
+    .pic {
         top: 35%;
         object-fit: cover;
         pointer-events: none;
         width: 40rem;
         left: 30%;
     }
-    .pic2{
+
+    .pic2 {
         left: 70%;
     }
+}
+
+.big {
+    height: 40rem;
+    width: 40rem;
+    z-index: 3;
+    object-fit: fill;
+}
+
+#skills {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.ships {
+    height: 50rem;
+    width: 50rem;
+    z-index: 3;
+}
+
+
+.ships {
+    :nth-child(1) {
+        top: 0%;
+    }
+
+    :nth-child(2) {
+        top: 5%;
+
+    }
+
+    :nth-child(3) {
+        top: 25%;
+    }
+}
+.trails{
+    z-index: 1;
+    height: 50rem;
+    width: 50rem;
+    :nth-child(1) {
+            top: 0%;
+            background-image: url(../../images/trail1.png);
+        }
+    
+        :nth-child(2) {
+            top: 5%;
+            background-image: url(../../images/trail2.png);
+        }
+    
+        :nth-child(3) {
+            top: 25%;
+            background-image: url(../../images/trail3.png);
+        }
 }

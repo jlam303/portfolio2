@@ -112,4 +112,50 @@ h1 {
 }
 #carousel .pic2 {
   left: 70%;
+}
+
+.big {
+  height: 40rem;
+  width: 40rem;
+  z-index: 3;
+  object-fit: fill;
+}
+
+#skills {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.ships {
+  height: 50rem;
+  width: 50rem;
+  z-index: 3;
+}
+
+.ships :nth-child(1) {
+  top: 0%;
+}
+.ships :nth-child(2) {
+  top: 5%;
+}
+.ships :nth-child(3) {
+  top: 25%;
+}
+
+.trails {
+  z-index: 1;
+  height: 50rem;
+  width: 50rem;
+}
+.trails :nth-child(1) {
+  top: 0%;
+  background-image: url(../../images/trail1.png);
+}
+.trails :nth-child(2) {
+  top: 5%;
+  background-image: url(../../images/trail2.png);
+}
+.trails :nth-child(3) {
+  top: 25%;
+  background-image: url(../../images/trail3.png);
 }/*# sourceMappingURL=style.css.map */
